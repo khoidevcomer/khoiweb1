@@ -1,0 +1,23 @@
+/* Styles for screens up to 768px wide (e.g., mobile devices) */
+@media screen and (max-width: 768px) {
+  /* Specific styles for mobile */
+  body {
+    font-size: 16px;
+  }
+  .container {
+    width: 100%;
+    padding: 10px;
+  }
+  /* Hide elements on mobile */
+  .hide-on-mobile {
+    display: none;
+  }
+}
+
+/* Styles for screens wider than 768px (e.g., desktops/tablets) */
+@media screen and (min-width: 769px) {
+  /* Specific styles for desktop/tablet */
+  .show-on-desktop {
+    display: block; /* or inline, inline-block, etc. */
+  }
+}
