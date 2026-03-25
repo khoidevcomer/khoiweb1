@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "node.js": "^0.0.1-security"
+  },
+  "devDependencies": {
+    "typescript": "^6.0.2"
   }
 }
